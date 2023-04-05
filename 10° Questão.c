@@ -51,17 +51,17 @@ int main() {
 
     int a1,b[n], m[n];
     
-    printf("Digite as tres congruencias no formato 'ax = b (mod m)':\n");
+    printf("Digite as congruencias no formato 'ax = b (mod m)':\n");
     for(i=0; i<n; i++)
     {
         scanf("%d x = %d (mod %d)", &a1, &b[i], &m[i]);
     }
 
-    int j;
+    int j=0;
 
     for(i=0; i<n; i++)
     {
-        for(j=i+1; j<n; j++)
+        for(j+=i+1; j<n; j++)
         {
             if (mdc(m[i], m[j]) != 1) {
                 printf("Os modulos nao sao coprimos. Nao ha solucao unica.\n");
