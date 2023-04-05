@@ -37,7 +37,7 @@ int chinese_remainder(int b1, int m1, int b2, int m2, int b3, int m3) {
 }
 
 int main() {
-    int a1,b1, b2, b3, m1, a2, m2, a3, m3;
+    int a1,b1, b2, b3, m1, m2, m3;
     printf("Digite as tres congruencias no formato 'ax = b (mod m)':\n");
     scanf("%d x = %d (mod %d)", &a1, &b1, &m1);
     scanf("%d x = %d (mod %d)", &a1, &b2, &m2);
