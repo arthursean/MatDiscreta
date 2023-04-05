@@ -1,3 +1,4 @@
+#include <stdio.h>
 int mdc(int a, int b, int *s, int *t) {
     if (b == 0) {
         *s = 1;
