@@ -70,7 +70,7 @@ int main() {
         }
     }
 
-    int x = teorema_chines(b[n], m[n] , n);
+    int x = teorema_chines(b, m, n);
     printf("A solucao unica da congruencia eh: %d\n", x);
 
     return 0;
